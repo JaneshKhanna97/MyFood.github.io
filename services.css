@@ -1,0 +1,51 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.footer{
+  text-align: center;
+  padding: 16px 625px;
+  border: 2px solid brown;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
+  background-color: lightgoldenrodyellow;
+
+}
+.heading{
+  text-align: center;
+  padding: 10px 20px;
+  border: 2px solid brown;
+  background-color: lightgoldenrodyellow;
+}
+
+
+#services-container{
+  background: url(bg1.jpg) no-repeat;
+  background-size: cover;
+
+}
+#services{
+    margin: 20px;
+    display: flex;
+}
+#services .box{ 
+    border: 2px solid brown;
+    padding: 20px;
+    margin: 30px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+#services .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#services .box p{
+    font-family: serif;
+
+} 
